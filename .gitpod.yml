@@ -3,3 +3,6 @@ tasks:
   - command: |
       nextstrain check-setup --set-default
       clear
+vscode:
+  extensions:
+    - snakemake.snakemake-lang@0.1.1:8RkTdEpsIsAkEX+4IDWkzg==
