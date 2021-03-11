@@ -1,7 +1,5 @@
-image:
-    file: .gitpod.Dockerfile
+image: nextstrain/base:latest
 tasks:
   - command: |
-      conda activate nextstrain
       nextstrain check-setup --set-default
       clear
