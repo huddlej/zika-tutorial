@@ -1,4 +1,4 @@
-image: nextstrain/base:latest
+image:
+    file: .gitpod.Dockerfile
 tasks:
-  - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
+  - command: 'nextstrain check-setup --set-default'
