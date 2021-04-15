@@ -6,7 +6,9 @@ See the [original Zika build repository](https://github.com/nextstrain/zika) for
 
 ## Quickstart (from gitpod)
 
-Run the Zika build.
+[Load the GitPod interface](https://gitpod.io/#https://github.com/huddlej/zika-tutorial/tree/huddlej/gitpod-setup).
+
+From the GitPod command line, run the Zika build.
 
 ```bash
 nextstrain build .
